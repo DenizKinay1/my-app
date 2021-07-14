@@ -1,0 +1,222 @@
+body {
+  background-color: #d5e1df;
+}
+.App {
+  text-align: center;
+  
+}
+
+.LoginButton {
+  margin-top: 10px;
+  
+  
+ 
+  height: 100%;
+  align-self: center;
+}
+.LoginDiv {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.FormLogin {
+  width: 100% !important;
+  max-width: 330px !important;
+  padding: 15px !important;
+  height: 100% !important;
+  margin: auto !important;
+  text-align: center;
+
+
+}
+
+/* start of css-html merge */
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.app-logo {
+  color: blue;  
+  font-weight: 900;
+}
+
+header {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  list-style: none;  
+}
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 300;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.content {
+  margin: 10%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2{
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textBox h2 span {
+  color:blue;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.container {
+  padding: 40px;
+  max-width: 100%!important;
+  background: #f8f9fa;
+}
+.tagcol {
+  justify-content: center;
+  align-items:center;  
+  text-align: center;
+}
+.tagcol h3 {
+  padding-top: 20px;
+}
+
+
+
+
+.contact-div {
+  background: url(cbg1.png) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-div h1,h2 {
+  text-align: center;
+}
+.contact-form {  
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 20px;
+}
+.contact-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  border:0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+}
+
+
+
+
+footer {
+  background: #111;
+  color: #fff;
+  height: auto;
+  width: 100vw;
+  font-family: sans-serif;
+  font-weight: 300;
+    padding-top: 40px;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 30px;
+  font-size: 14px;
+}
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+}
+
+
+
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
