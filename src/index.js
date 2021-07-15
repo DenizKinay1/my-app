@@ -102,6 +102,7 @@ class Game extends React.Component {
       </div>
     );
   }
+  
 }
 
 function calculateWinner(squares) {
@@ -128,11 +129,13 @@ ReactDOM.render(
   <React.StrictMode>    
     <MyNav />
     <App />
-    <hr></hr>
-    <Game/>
+    
+    
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+/*<Game/> afteR APP*/
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

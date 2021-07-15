@@ -4,7 +4,17 @@ import ls1 from "./ls1.png";
 import Text from "./genText";
 import ItemList from "./components/ItemList";
 import AddItem from "./components/AddItem";
-import { Button, Form, FormGroup, Label, Input } from "reactstrap";
+import {
+  Button,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+} from "reactstrap";
 import "./App.css";
 import Person from "./components/Person";
 import AddPerson from "./components/AddPerson";
@@ -16,6 +26,9 @@ function App() {
   const [listcount, setListCount] = useState(-1);
   const [isLoggedIn, setIsLoggedin] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
 
   const [editItem, setEditItem] = useState("");
 
@@ -71,6 +84,41 @@ function App() {
             <h1 className="app-logo">MyApp</h1>
             <ul>
               <li>
+                <div>
+                  <a href="#" onClick={toggle}>
+                    Login
+                  </a>
+                  <Modal isOpen={modal} toggle={toggle}>
+                    <ModalHeader toggle={toggle}>Login Screen</ModalHeader>
+                    <ModalBody>
+                      <Form className="FormLogin">
+                        <h1 className="text-center">Welcome to MyApp!</h1>
+                        <FormGroup>
+                          <Label>Email</Label>
+                          <Input type="email" placeholder="Enter Email"></Input>
+                        </FormGroup>
+                        <FormGroup>
+                          <Label>Password</Label>
+                          <Input
+                            type="password"
+                            placeholder="Enter Password"
+                          ></Input>
+                        </FormGroup>
+                        <Button className="LoginButton" color="success" onClick={handleLogin}>
+                          Login
+                        </Button>
+                      </Form>{" "}
+                    </ModalBody>
+                    <ModalFooter>
+                      
+                      <Button color="danger" onClick={toggle}>
+                        Cancel
+                      </Button>
+                    </ModalFooter>
+                  </Modal>
+                </div>
+              </li>
+              <li>
                 <a href="#">Home</a>
               </li>
               <li>
@@ -84,6 +132,7 @@ function App() {
               </li>
             </ul>
           </header>
+
           <div className="content">
             <div className="textBox">
               <h2>
@@ -98,13 +147,38 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <Button onClick={handleLogin}>GET STARTED</Button>
+              <Button color="primary" onClick={handleLogin}>GET STARTED</Button>
             </div>
             <div className="imgBox">
               <img src={ls1} className="ls1" />
             </div>
           </div>
         </section>
+
+        <section className="section2">
+        <div className="content">
+          <div className="imgBox">
+              <img src={ls1} className="ls1" />
+            </div>
+            <div className="textBox">
+              <h2>
+                Welcome to <span>MyApp</span>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <Button color="primary" onClick={handleLogin}>GET STARTED</Button>
+            </div>
+            
+          </div>
+        </section>
+
 
         <div class="container">
           <div class="row">

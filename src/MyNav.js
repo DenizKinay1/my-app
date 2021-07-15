@@ -44,8 +44,18 @@ const MyNav = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+            <NavLink href="#">Home</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#">About</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#">Contact</NavLink>
+          </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          
+          
         </Collapse>
       </Navbar>
     </div>

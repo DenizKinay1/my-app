@@ -35,6 +35,17 @@ body {
 
 /* start of css-html merge */
 
+.section2 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(192, 185, 185);
+}
+
 section {
   position: relative;
   width: 100%;
@@ -83,6 +94,7 @@ header ul li a {
   justify-content: space-between;
   align-items: center;
 }
+
 .content .textBox {
   position: relative;
   max-width: 600px;
