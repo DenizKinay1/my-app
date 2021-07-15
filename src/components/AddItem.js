@@ -18,7 +18,7 @@ const AddItem = ({ setItem, items, setItems, item }) => {
     
     e.preventDefault(); 
     setItems([...items, { text: item, id: Math.random() * 1000 }]);
-    // alert("New item has been added to the list: " + item)
+    // alert("New item has been added to the list: " + item)a
     setItem("");
     setVisible(!visible);
   };
