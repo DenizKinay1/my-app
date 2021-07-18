@@ -80,7 +80,7 @@ function App() {
       */
       <body>
         <section>
-          <header>
+          {/* <header>
             <h1 className="app-logo">MyApp</h1>
             <ul>
               <li>
@@ -131,7 +131,7 @@ function App() {
                 <a href="#">Contact</a>
               </li>
             </ul>
-          </header>
+          </header> */}
 
           <div className="content">
             <div className="textBox">

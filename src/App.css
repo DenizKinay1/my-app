@@ -1,14 +1,10 @@
-
 .App {
   text-align: center;
-  
 }
 
 .LoginButton {
   margin-top: 10px;
-  
-  
- 
+
   height: 100%;
   align-self: center;
 }
@@ -17,7 +13,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  
 }
 
 .FormLogin {
@@ -27,8 +22,6 @@
   height: 100% !important;
   margin: auto !important;
   text-align: center;
-
-
 }
 
 /* start of css-html merge */
@@ -37,30 +30,20 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgb(192, 185, 185);
 }
 
-section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-}
 .app-logo {
-  color: blue;  
+  color: blue;
   font-weight: 900;
 }
 
 header {
-  position:absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -68,14 +51,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 header ul {
   position: relative;
   display: flex;
 }
 header ul li {
-  list-style: none;  
+  list-style: none;
 }
 header ul li a {
   display: inline-block;
@@ -85,10 +67,9 @@ header ul li a {
   text-decoration: none;
 }
 .content {
-  margin: 10%;
+  
   position: relative;
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -98,44 +79,47 @@ header ul li a {
   max-width: 600px;
 }
 
-.content .textBox h2{
+.content .textBox h2 {
   color: #333;
   font-size: 4em;
   line-height: 1.4em;
   font-weight: 500;
 }
 .content .textBox h2 span {
-  color:blue;
+  color: blue;
   font-size: 1.2em;
   font-weight: 900;
 }
 
 .container {
   padding: 40px;
-  max-width: 100%!important;
+  max-width: 100% !important;
   background: #f8f9fa;
 }
 .tagcol {
   justify-content: center;
-  align-items:center;  
+  align-items: center;
   text-align: center;
 }
 .tagcol h3 {
   padding-top: 20px;
 }
 
-
-
+.ls1 {
+  width: 100%;
+  height: auto;
+}
 
 .contact-div {
   background: url(cbg1.png) no-repeat center;
   background-size: cover;
   padding: 40px 0;
 }
-.contact-div h1,h2 {
+.contact-div h1,
+h2 {
   text-align: center;
 }
-.contact-form {  
+.contact-form {
   max-width: 500px;
   margin: auto;
   padding: 20px 20px;
@@ -145,15 +129,12 @@ header ul li a {
   width: 100%;
   box-sizing: border-box;
   margin: 20px 0;
-  border:0;
+  border: 0;
   background: #111;
   padding: 20px 40px;
   outline: none;
   color: white;
 }
-
-
-
 
 footer {
   background: #111;
@@ -162,7 +143,7 @@ footer {
   width: 100vw;
   font-family: sans-serif;
   font-weight: 300;
-    padding-top: 40px;
+  padding-top: 40px;
 }
 .footer-content {
   display: flex;
@@ -176,7 +157,7 @@ footer {
   font-weight: 400;
   line-height: 2rem;
 }
-.footer-content p{
+.footer-content p {
   max-width: 500px;
   margin: 10px auto;
   line-height: 30px;
@@ -188,13 +169,34 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-.footer-bottom p{
+.footer-bottom p {
   font-size: 14px;
 }
 
+@media (min-width: 900px) {
+  .section2 {
+    background: rgb(131, 126, 126);
+  }
 
-
-
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+  }
+  .content {
+    margin: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 /* .App-logo {
   height: 40vmin;
