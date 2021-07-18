@@ -26,6 +26,10 @@
 
 /* start of css-html merge */
 
+.section1 {
+  background: rgb(175, 175, 192);
+}
+
 .section2 {
   position: relative;
   width: 100%;
@@ -90,6 +94,9 @@ header ul li a {
   font-size: 1.2em;
   font-weight: 900;
 }
+.imgBox {
+  padding: 40px;
+}
 
 .container {
   padding: 40px;
@@ -108,6 +115,8 @@ header ul li a {
 .ls1 {
   width: 100%;
   height: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .contact-div {
@@ -135,12 +144,15 @@ h2 {
   outline: none;
   color: white;
 }
+.content-story {
+  padding: 20px;
+}
 
 footer {
   background: #111;
   color: #fff;
   height: auto;
-  width: 100vw;
+  
   font-family: sans-serif;
   font-weight: 300;
   padding-top: 40px;
@@ -172,10 +184,13 @@ footer {
 .footer-bottom p {
   font-size: 14px;
 }
+.react-button  {
+  text-align: center;
+}
 
 @media (min-width: 900px) {
   .section2 {
-    background: rgb(131, 126, 126);
+    
   }
 
   section {

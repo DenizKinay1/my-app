@@ -79,7 +79,7 @@ function App() {
       </div>
       */
       <body>
-        <section>
+        <section className="section1">
           {/* <header>
             <h1 className="app-logo">MyApp</h1>
             <ul>
@@ -138,7 +138,7 @@ function App() {
               <h2>
                 Welcome to <span>MyApp</span>
               </h2>
-              <p>
+              <p className="content-story">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -147,7 +147,11 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <Button color="primary" onClick={handleLogin}>GET STARTED</Button>
+              <div className="react-button">
+                <Button color="primary" onClick={handleLogin}>
+                  REACT LIST TEST
+                </Button>
+              </div>
             </div>
             <div className="imgBox">
               <img src={ls1} className="ls1" />
@@ -156,15 +160,15 @@ function App() {
         </section>
 
         <section className="section2">
-        <div className="content">
-          <div className="imgBox">
+          <div className="content">
+            <div className="imgBox">
               <img src={ls1} className="ls1" />
             </div>
             <div className="textBox">
               <h2>
-                Welcome to <span>MyApp</span>
+                Everything about <span>MyApp</span>
               </h2>
-              <p>
+              <p  className="content-story">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -173,12 +177,9 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              
             </div>
-            
           </div>
         </section>
-
 
         <div class="container">
           <div class="row">
